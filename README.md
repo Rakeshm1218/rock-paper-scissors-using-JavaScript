@@ -1,7 +1,5 @@
 # rock-paper-scissors-using-JavaScript
 
-
-## Rock Paper Scissors Game
 ## Overview
 A simple Rock-Paper-Scissors game implemented in JavaScript with an interactive UI, score tracking, and responsive design.
 
