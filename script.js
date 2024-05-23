@@ -53,3 +53,15 @@ function playGame(playerChoice){
 
         }
 }
+
+
+function resetGame(){
+    playerScore = 0;
+    computerScore = 0;
+    playerScoreDisplay.textContent = playerScore;
+    computerScoreDisplay.textContent = computerScore;
+    playerDisplay.textContent = "";
+    computerDisplay.textContent = "";
+    resultDisplay.textContent = "";
+    resultDisplay.classList.remove("greenText","redText");
+}

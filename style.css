@@ -76,3 +76,24 @@
     text-align: center;
     font-weight: bold;
 }
+.resetBtn{
+    display: flex;
+    justify-content: center;
+
+}
+#resetBtn{
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    background-color: rgb(206, 15, 15);
+    border-radius: 20px;
+    cursor: pointer;
+}
+#resetBtn:hover{
+    background-color: rgb(212, 3, 7);
+}
+#resetBtn:active{
+    background-color: rgb(222, 46, 40);
+}
